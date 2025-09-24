@@ -1,0 +1,81 @@
+{
+	"node": [
+	 	"Short_Version", "Code", "Aspirations", "High_Level_Abstraction", "Clauses", "Full_Version", "Examples", "Details", "How_Clause_001", "Way_Clause_001", "We", "Software_Engineering_Professionals", "Details_without_Aspirations", "Aspirations_without_Details", "a_Cohesive_Code_001", "Software_Engineering_Code_of_Ethics_and_Professional_Practice", "Examples_and_Details", "Legalistic", "Tedious", "High_Sounding", "Empty", "Beneficial", "Respected",
+
+	 	"Software_Engineers", "Making_Clause_001", "Analysis_Specification_Design_Development_Testing_Maintenance_of_Software", "Profession_000", "beneficial", "respected", "Shall_Clause", "Accordance_Clause", "the_Eight_Principles_000", "the_Public_000", "Health", "Safety", "Welfare", 
+
+	 	"1_PUBLIC", "2_CLIENT_AND_EMPLOYER", "3_PRODUCT", "4_JUDGMENT", "5_MANAGEMENT", "6_PROFESSION", "7_COLLEAGUES", "8_SELF",
+
+	 	"a_Manner_001", "Best_Interest_001", "Client", "Employer", "ensure_clause_001", "Products_and_related_Modifications", "highest_Professional_Standards_Possible", "Integrity_and_Independence_in_their_Professional_Judgement", "an_Ethical_Approach_to_the_Management_of_Software", "the_Integrity_and_Reputation_of_the_Profession", "Lifelong_Learning_001", "Practice001", "an_Ethical_Approach_001",
+
+	],
+	"edges": [ # this version has guessed relations, limited predicate relation, and medium length phrase that contain two-layer information, which is, for some nouns, there could be two layers of nouns, e.g. "Health_of_the_Public"; or two nouns of one layer e.g. "Examples_and_Details"???? "Best_Interest_of_Client" two layers or, if one layer, each layer has two nouns at most
+		["Code", "has", "Short_Version"],
+		["Code", "has", "Full_Version"],
+		["Code", "equals", "Software_Engineering_Code_of_Ethics_and_Professional_Practice"],
+		["Short_Version", "Summarizes", "Aspirations_at_High_Level_Abstraction"],
+		["Clauses_in_Full_Version", "give", "Examples_and_Details"],
+		["Examples_and_Details", "beingAbout", "How_Clause_001"],
+		["Aspirations", "Change::How_Clause_001", "Way_Clause_001"],
+		["We", "actAs::Way_Clause_001", "Software_Engineering_Professionals"],
+		["Details", "hasSpecialCase", "Details_without_Aspirations"],
+		["Aspirations", "hasSpecialCase", "Aspirations_without_Details"],
+		["Details_without_Aspirations", "hasProperty", "Legalistic_and_Tedious"],
+		["Aspirations_without_Details", "hasProperty", "High_Sounding_but_Empty"],
+		["Aspirations", "form", "a_Cohesive_Code_001"],
+		["Details", "form", "a_Cohesive_Code_001"],
+
+		["Software_Engineering_Professionals", "equals", "Software_Engineers"],
+
+		["Software_Engineers", "commitTo", "Making_Clause_001"],
+		["Software_Engineers", "make::Making_Clause_001", "Making_Clause_001"],
+		["Analysis_Specification_Design_Development_Testing_Maintenance_of_Software", "toBe::Making_Clause_001", "a_Beneficial_and_Respected_Profession"],
+		["Software_Engineers", "shall::accordTo", "Shall_Clause"],
+		["Software_Engineers", "adhereTo::Shall_Clause", "the_Eight_Principles_000"],
+		["Software_Engineers", "accordTo::Shall", "Accordance_Clause"],
+		["Software_Engineers", "commitmentTo::Accordance_Clause", "Health_of_the_Public"],
+		["Software_Engineers", "commitmentTo::Accordance_Clause", "Safety_of_the_Public"],
+		["Software_Engineers", "commitmentTo::Accordance_Clause", "Welfare_of_the_Public"],
+
+
+		["1_PUBLIC", "isAspectOf_001", "the_Eight_Principles_000"],
+		["2_CLIENT_AND_EMPLOYER", "isAspectOf_002", "the_Eight_Principles_000"],
+		["3_PRODUCT", "isAspectOf_003", "the_Eight_Principles_000"],
+		["4_JUDGMENT", "isAspectOf_004", "the_Eight_Principles_000"],
+		["5_MANAGEMENT", "isAspectOf_005", "the_Eight_Principles_000"],
+		["6_PROFESSION", "isAspectOf_006", "the_Eight_Principles_000"],
+		["7_COLLEAGUES", "isAspectOf_007", "the_Eight_Principles_000"],
+		["8_SELF", "isAspectOf_008", "the_Eight_Principles_000"],
+
+
+		["Software_Engineers", "act_consistently_with::isAspectOf_001", "the_Public_Interest_000"],
+
+		["Software_Engineers", "act_in::act_consistently_with::isAspectOf_002", "a_Manner_001"],
+		["a_Manner_001", "is_in", "Best_Interest_of_Client"],
+		["a_Manner_001", "is_in", "Best_Interest_of_Employer"],
+
+		["Software_Engineers", "ensure::isAspectOf_003", "ensure_clause_001"],
+		["ensure_clause_001", "connect", "Products_and_related_Modifications"], # this is added to make connection with the island, in the future, this can be removed, and the island can be accessed through clicking the node
+		["Products_and_related_Modifications", "meet::ensure_clause_001", "highest_Professional_Standards_Possible"],
+
+		["Software_Engineers", "maintain::isAspectOf_004", "Integrity_and_Independence_000"],
+		["Integrity_and_Independence_000", "isIn", "Professional_Judgement"],
+		["Software_Engineers", "have", "Professional_Judgement"],
+
+		["Software_Engineering_Managers_and_Leaders", "subscribeTo::isAspectOf_005", "an_Ethical_Approach_000"],
+		["Software_Engineering_Managers_and_Leaders", "Promote::isAspectOf_005", "an_Ethical_Approach_000"],
+		["an_Ethical_Approach_000", "isTo", "the_Management_of_Software_Development_and_Maintenance"],
+		["Software_Engineering_Managers_and_Leaders", "supervise", "Software_Engineers"], # this connection is from a guess of a LLM, which is the knowledge from other documents; this connection may be directly learned from other documents
+		
+		["Software_Engineers", "act_consistently_with::isAspectOf_006", "Integrity_of_Profession_000"],
+		["Software_Engineers", "act_consistently_with::isAspectOf_006", "Reputation_of_Profession_000"],
+
+		["Software_Engineers", "beFairTo::isAspectOf_007", "colleagues"],
+		["Software_Engineers", "beSupportiveOf::isAspectOf_007", "colleagues"],
+		
+		["Software_Engineers", "participateIn::isAspectOf_008", "Lifelong_Learning_001"],
+		["Lifelong_Learning_001", "regards::participateIn", "Practice_of_their_Profession"],
+		["Software_Engineers", "promote::isAspectOf_008", "an_Ethical_Approach_001"],
+		["an_Ethical_Approach_001", "to::promote", "Practice_of_their_Profession"],
+	]
+}

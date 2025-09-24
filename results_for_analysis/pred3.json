@@ -1,0 +1,347 @@
+{
+  "nodes": [
+    "the integrity and reputation of the profession consistent with the public interest",
+    "the practice",
+    "at a high level of abstraction",
+    "be manage",
+    "the clause",
+    "the way we act",
+    "their commitment",
+    "PUBLIC Software engineer",
+    "maintain integrity and independence in their professional judgment",
+    "their profession",
+    "the aspiration",
+    "employer",
+    "the good interest of their client",
+    "become legalistic and tedious",
+    "the follow eight principle",
+    "lifelong learning",
+    "in a manner that be in the good interest of their client and employer consistent with the public interest",
+    "participate in lifelong learning regard the practice of their profession and shall promote an ethical approach to the practice of the profession",
+    "an ethical approach",
+    "their product",
+    "their client",
+    "the analysis",
+    "the profession",
+    "integrity and independence in their professional judgment",
+    "themselves",
+    "in the good interest of their client and employer consistent with the public interest",
+    "sound high",
+    "in accordance",
+    "by software engineer",
+    "without the aspiration",
+    "the specification",
+    "the testing",
+    "fair",
+    "supportive",
+    "the design",
+    "software development",
+    "to an ethical approach",
+    "that",
+    "the public interest",
+    "and welfare of the public",
+    "their colleague",
+    "leader",
+    "MANAGEMENT",
+    "maintenance",
+    "the maintenance",
+    "software engineering manager",
+    "a cohesive code",
+    "the high professional standard",
+    "software engineer",
+    "empty",
+    "the short version",
+    "a manner",
+    "example",
+    "the detail",
+    "the development",
+    "EMPLOYER",
+    "aspiration",
+    "these aspiration",
+    "an ethical approach to the practice of the profession",
+    "PREAMBLE",
+    "Software Engineering Code of Ethics and Professional Practice (Short Version)"
+  ],
+  "edges": [
+    {
+      "subject": "the short version",
+      "predicate": "summarizes",
+      "object": "aspiration"
+    },
+    {
+      "subject": "aspiration",
+      "predicate": "are",
+      "object": "at a high level of abstraction"
+    },
+    {
+      "subject": "the clause",
+      "predicate": "include",
+      "object": "example"
+    },
+    {
+      "subject": "these aspiration",
+      "predicate": "change",
+      "object": "the way we act"
+    },
+    {
+      "subject": "without the aspiration",
+      "predicate": "can",
+      "object": "become legalistic and tedious"
+    },
+    {
+      "subject": "the aspiration",
+      "predicate": "can",
+      "object": "sound high"
+    },
+    {
+      "subject": "the aspiration",
+      "predicate": "become",
+      "object": "empty"
+    },
+    {
+      "subject": "the aspiration",
+      "predicate": "form",
+      "object": "a cohesive code"
+    },
+    {
+      "subject": "the detail",
+      "predicate": "form",
+      "object": "a cohesive code"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "commit",
+      "object": "themselves"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "make",
+      "object": "the analysis"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "make",
+      "object": "the specification"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "make",
+      "object": "the design"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "make",
+      "object": "the development"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "make",
+      "object": "the testing"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "make",
+      "object": "the maintenance"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "adhere",
+      "object": "the follow eight principle"
+    },
+    {
+      "subject": "their commitment",
+      "predicate": "to the health",
+      "object": "and welfare of the public"
+    },
+    {
+      "subject": "in accordance",
+      "predicate": "with",
+      "object": "their commitment"
+    },
+    {
+      "subject": "PUBLIC Software engineer",
+      "predicate": "act",
+      "object": "the public interest"
+    },
+    {
+      "subject": "the public interest",
+      "predicate": "is acted upon",
+      "object": "by software engineer"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "be",
+      "object": "in the good interest of their client and employer consistent with the public interest"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "act",
+      "object": "in a manner that be in the good interest of their client and employer consistent with the public interest"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "be",
+      "object": "the good interest of their client"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "be",
+      "object": "their client"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "be",
+      "object": "a manner"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "be",
+      "object": "that"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "be",
+      "object": "the public interest"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "be",
+      "object": "employer"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "be",
+      "object": "EMPLOYER"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "ensure",
+      "object": "their product"
+    },
+    {
+      "subject": "their product",
+      "predicate": "meet",
+      "object": "the high professional standard"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "maintain",
+      "object": "integrity and independence in their professional judgment"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "shall",
+      "object": "maintain integrity and independence in their professional judgment"
+    },
+    {
+      "subject": "software engineering manager",
+      "predicate": "subscribe",
+      "object": "an ethical approach"
+    },
+    {
+      "subject": "leader",
+      "predicate": "promote",
+      "object": "an ethical approach"
+    },
+    {
+      "subject": "software development",
+      "predicate": "shall",
+      "object": "be manage"
+    },
+    {
+      "subject": "maintenance",
+      "predicate": "shall",
+      "object": "be manage"
+    },
+    {
+      "subject": "MANAGEMENT",
+      "predicate": "subscribed",
+      "object": "to an ethical approach"
+    },
+    {
+      "subject": "MANAGEMENT",
+      "predicate": "promoted",
+      "object": "an ethical approach"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "advance",
+      "object": "the integrity and reputation of the profession consistent with the public interest"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "be",
+      "object": "fair"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "be",
+      "object": "supportive"
+    },
+    {
+      "subject": "their colleague",
+      "predicate": "be",
+      "object": "fair"
+    },
+    {
+      "subject": "their colleague",
+      "predicate": "be",
+      "object": "supportive"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "participate",
+      "object": "lifelong learning"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "promote",
+      "object": "an ethical approach to the practice of the profession"
+    },
+    {
+      "subject": "the practice",
+      "predicate": "regard",
+      "object": "the profession"
+    },
+    {
+      "subject": "the profession",
+      "predicate": "participate",
+      "object": "lifelong learning"
+    },
+    {
+      "subject": "the profession",
+      "predicate": "promote",
+      "object": "an ethical approach to the practice of the profession"
+    },
+    {
+      "subject": "their profession",
+      "predicate": "participate",
+      "object": "lifelong learning"
+    },
+    {
+      "subject": "their profession",
+      "predicate": "promote",
+      "object": "an ethical approach to the practice of the profession"
+    },
+    {
+      "subject": "the practice",
+      "predicate": "regard",
+      "object": "the profession"
+    },
+    {
+      "subject": "the profession",
+      "predicate": "participate",
+      "object": "lifelong learning"
+    },
+    {
+      "subject": "the profession",
+      "predicate": "promote",
+      "object": "an ethical approach to the practice of the profession"
+    },
+    {
+      "subject": "software engineer",
+      "predicate": "shall",
+      "object": "participate in lifelong learning regard the practice of their profession and shall promote an ethical approach to the practice of the profession"
+    }
+  ]
+}

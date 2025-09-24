@@ -1,0 +1,47 @@
+{
+  "node": [
+    "Short_Version_of_the_Code", "Aspirations_at_High_Level_Abstraction", "Full_Version", "Clauses", "Examples_and_Details_of_How_Aspirations_Change_the_Ways", "Aspirations", "Ways", "We", "Software_Engineering_Professionals", "Details_without_Aspirations", "Legalistic_and_Tedious", "Aspirations_without_Details", "High_Sounding_but_Empty", "a_Cohesive_Code", "Software_Engineering_Code_of_Ethics_and_Professional_Practice",
+
+    "Software_Engineers", "Making_Analysis_Specification_Design_Development_Testing_Maintenance_of_Software_a_Beneficial_and_Respected", "the_Eight_Principles", "Health_Safety_and_Welfare_of_the_Public", 
+
+    "the_Public_Interest", "a_Manner", "Best_Interest_of_Client_and_Emloyer", "ensure_clause_001", "Products_and_related_Modifications", "highest_Professional_Standards_Possible", "Integrity_and_Independence_in_their_Professional_Judgement", "Software_Engineering_Managers_and_Leaders", "an_Ethical_Approach_to_the_Management_of_Software_Development_and_Maintenance", "Integrity_and_Reputation_of_the_Profession", "colleagues", "Lifelong_Learning_regards_Practice_of_their_Profession", "an_Ethical_Approach_to_Practice_of_their_Profession"
+
+  ],
+  "edges": [
+    ["Short_Version_of_the_Code", "Summarizes", "Aspirations_at_High_Level_Abstraction"],
+    ["Full_Version", "include", "Clauses"],
+    ["Full_Version", "give", "Examples_and_Details_of_How_Aspirations_Change_the_Ways"],
+    ["Aspirations", "change", "Ways"],
+    ["We", "actAs", "Software_Engineering_Professionals"],
+    ["Details_without_Aspirations", "become", "Legalistic_and_Tedious"],
+    ["Aspirations_without_Details", "become", "High_Sounding_but_Empty"],
+    ["Aspirations", "form", "a_Cohesive_Code"],
+    ["Details", "form", "a_Cohesive_Code"],
+
+    ["Software_Engineers", "commitTo", "Making_Analysis_Specification_Design_Development_Testing_Maintenance_of_Software_a_Beneficial_and_Respected Profession"],
+    ["Software_Engineers", "adhereTo", "the_Eight_Principles"],
+    ["Software_Engineers", "commitmentTo", "Health_Safety_and_Welfare_of_the_Public"],
+
+
+    ["Software_Engineers", "act_consistently_with", "the_Public_Interest"],
+
+    ["Software_Engineers", "act_in", "a_Manner"],
+    ["a_Manner", "is_in", "Best_Interest_of_Client_and_Emloyer"],
+
+    ["Software_Engineers", "ensure", "ensure_clause_001"],
+    ["ensure_clause_001", "connect", "Products_and_related_Modifications"],
+    ["Products_and_related_Modifications", "meet::ensure_clause_001", "highest_Professional_Standards_Possible"],
+
+    ["Software_Engineers", "maintain", "Integrity_and_Independence_in_their_Professional_Judgement"],
+
+    ["Software_Engineering_Managers_and_Leaders", "subscribeTo", "an_Ethical_Approach_to_the_Management_of_Software_Development_and_Maintenance"],
+    ["Software_Engineering_Managers_and_Leaders", "Promote", "an_Ethical_Approach_to_the_Management_of_Software_Development_and_Maintenance"],
+    
+    ["Software_Engineers", "advance", "Integrity_and_Reputation_of_the_Profession"],
+
+    ["Software_Engineers", "beFairToandSupportiveOf", "colleagues"],
+    
+    ["Software_Engineers", "participateIn", "Lifelong_Learning_regards_Practice_of_their_Profession"],
+    ["Software_Engineers", "promote", "an_Ethical_Approach_to_Practice_of_their_Profession"]
+  ]
+}
